@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Bebas Neue', cursive;
+}
+.container{
+  max-width: 700px;
+  margin: 0 auto;
+  background: red;
+  height: 120vh;
+  background-image: url("robot.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: fixed;
+}
+.profile >img{
+  width: 150px;
+  height: 150px;
+  border: 3px solid: black;
+  border-radius: 100%;
+  padding: 20px;
+}
+.profile >p{
+  font-size: 1.8em;
+  font-weight: 900;
+  color:white;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.link{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:20px;
+}
+.link > a{
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 7px;
+  color:white;
+  border: 3px solid:black;
+  border-color: #eaeaea;
+  margin: 5px 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.link > a:hover{
+  background-color: azure;
+}
+.footer{
+  text-align: center;
+}
+.footer> i{
+  color:white;
+  font-size: 25px;
+}
+.lagu{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:5px;
+}
+.lagu>audio{
+  width: 150px;
+  height: 150px;
+  border: 5px solid: black;
+  border-radius: 10%;
+  padding: 20px;
+}
